@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+.container{
+    width: 1248px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'content';
+@import 'form';
+
+ 

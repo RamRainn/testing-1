@@ -1,0 +1,23 @@
+.content{
+    min-height: 100vh;
+    margin-top: 80px;
+    &__items{
+        display: grid;
+        grid-template: repeat(2, 250px) / repeat(4, 250px);
+        gap: 50px;
+        place-content: space-around space-evenly;
+    }
+    &__item{
+        background-color: red;
+        color: #fff;
+        min-height: 250px;
+        padding: 0 20px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        &:nth-child(even){
+            background-color: #000;
+        }
+    }
+}
